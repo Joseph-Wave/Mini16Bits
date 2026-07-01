@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Mini16Bits.srcs/sources_1/new" \
+"../../../../Mini16Bits.srcs/sources_1/new/CPU.v" \
+"../../../../Mini16Bits.srcs/sources_1/new/RAM.v" \
+"../../../../Mini16Bits.srcs/sources_1/new/ROM.v" \
+"../../../../Mini16Bits.srcs/sources_1/new/main.v" \
+"../../../../Mini16Bits.srcs/sim_1/new/simusimu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

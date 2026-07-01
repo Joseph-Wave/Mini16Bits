@@ -1,0 +1,11 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Xilinx/Projects/Mini16Bits/Mini16Bits.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sim_1/new/simusimu.v,1782422117,verilog,,,,simusimu,,,../../../../Mini16Bits.srcs/sources_1/new,,,,,
+D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/CPU.v,1782874820,verilog,,D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/RAM.v,D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/constants.vh,CPU,,,../../../../Mini16Bits.srcs/sources_1/new,,,,,
+D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/RAM.v,1782783600,verilog,,D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/ROM.v,D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/constants.vh,RAM,,,../../../../Mini16Bits.srcs/sources_1/new,,,,,
+D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/ROM.v,1782874462,verilog,,D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/main.v,,ROM,,,../../../../Mini16Bits.srcs/sources_1/new,,,,,
+D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/constants.vh,1782874806,verilog,,,,,,,,,,,,
+D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/main.v,1782623083,verilog,,D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sim_1/new/simusimu.v,D:/Xilinx/Projects/Mini16Bits/Mini16Bits.srcs/sources_1/new/constants.vh,main,,,../../../../Mini16Bits.srcs/sources_1/new,,,,,
