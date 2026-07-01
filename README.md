@@ -3,7 +3,7 @@
 A small hobby project developed over the course of a week to explore and better understand the architectural decisions behind classic microprocessors.
 
 The system implements a custom 16-bit CPU designed to interface with a 8-bit bus of a **27C256 EPROM** and **MB84256 SRAM**. The instruction set draws inspiration from the **MOS 6502** while incorporating concepts commonly found in scientific calculators of the era.
----
+
 
 # Architecture
 
