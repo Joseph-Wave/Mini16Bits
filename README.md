@@ -16,8 +16,9 @@ The system implements a custom 16-bit CPU designed to interface with a 8-bit bus
 | 2 | C | Result register |
 | 3 | S | Summation accumulator |
 | 4 | X | Index register (indirect addressing and jumps) |
-| 5 | P | Stack pointer |
-| 6 | F | Status / Flag register |
+| 5 | Y | Usefull for looping |
+| 6 | P | Stack pointer |
+| 7 | F | Status / Flag register |
 | — | PC | Program counter |
 | — | IR | Instruction register |
 | — | TS | Timing state counter |
@@ -103,6 +104,21 @@ The system implements a custom 16-bit CPU designed to interface with a 8-bit bus
 | 25 | RET | None | Return from subroutine (pop PC) |
 
 ---
+
+## Updated
+| Opcode | Mnemonic | Operand | Description |
+|---------|---------|----------|-------------|
+| 26 | NEG  | None | A = -A |
+| F2 | SYS  | Addr | Swap program source to RAM or ROM and jump to address | 
+| 27 | INC  | Addr | Increase in 1 the content of an RAM address (erase A) |
+| 28 | DEC  | Addr | Decrease in 1 the content of an RAM address (erase A) |
+| 29 | INX  | None | X = X + 1 |
+| 2A | DEX  | None | X = X - 1 |
+| 2B | LCX  | None | Load X with ROM constant |
+| 2C | JLT  | Addr | if A < B jump to address |
+| 2D | JMT  | Addr | if A > B jump to address |
+| 2E | JEQ  | Addr | if A == B jump to address |
+| 2F | LOOP | Addr | X = X - 1, if X == 0 jump to address |
 
 # Future Work
 
